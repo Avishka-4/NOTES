@@ -6,7 +6,6 @@
 // ============================================================
 // 1. BASIC SYNTAX
 // ============================================================
-
 console.log("=== 1. BASIC SYNTAX ===\n");
 
 // Variables: let, const, var (avoid var in modern JS)
@@ -48,10 +47,11 @@ const obj2 = { y: 2 };
 const mergedObj = { ...obj1, ...obj2 };
 console.log("Merged object:", mergedObj);
 
+
+
 // ============================================================
 // 2. CONTROL FLOWS
 // ============================================================
-
 console.log("\n=== 2. CONTROL FLOWS ===\n");
 
 // if/else statements
@@ -133,10 +133,11 @@ for (const key in user) {
   console.log(`  ${key}: ${user[key]}`);
 }
 
+
+
 // ============================================================
 // 3. FUNCTIONS AND STORING METHODS (Objects & Classes)
 // ============================================================
-
 console.log("\n=== 3. FUNCTIONS AND STORING METHODS ===\n");
 
 // Function declaration
@@ -256,10 +257,11 @@ const triple = createMultiplier(3);
 console.log(`Double 5: ${double(5)}`);
 console.log(`Triple 5: ${triple(5)}`);
 
+
+
 // ============================================================
 // 4. POINTERS / REFERENCES
 // ============================================================
-
 console.log("\n=== 4. POINTERS / REFERENCES ===\n");
 
 // Primitives (passed by value - copy)
@@ -394,10 +396,11 @@ async function getUserData() {
 
 getUserData();
 
+
+
 // ============================================================
 // BONUS: ARRAY METHODS (Essential ES6+ concepts)
 // ============================================================
-
 console.log("\n=== BONUS: ARRAY METHODS ===\n");
 
 const items = [1, 2, 3, 4, 5];
@@ -426,10 +429,11 @@ console.log(`Has number > 3: ${hasLargeNumber}`);
 const allPositive = items.every((item) => item > 0);
 console.log(`All positive: ${allPositive}`);
 
+
+
 // ============================================================
 // BONUS: DESTRUCTURING ADVANCED
 // ============================================================
-
 console.log("\n=== BONUS: ADVANCED DESTRUCTURING ===\n");
 
 // Object destructuring with renaming
