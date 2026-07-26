@@ -1,8 +1,8 @@
 **🚀have notes related to:**
   
-**  .net framwork
+  .net framwork
   
   Javascript_bacics / react.js / node&express
   reactnative
 
-  next.js**__
+  next.js
